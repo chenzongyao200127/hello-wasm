@@ -1,0 +1,13 @@
+[package]
+name = "hello-wasm"
+version = "0.1.0"
+authors = ["Solar1s <solar1s@163.com>"]
+description = "A sample project with wasm-pack"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/chenzongyao200127/hello-wasm"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
